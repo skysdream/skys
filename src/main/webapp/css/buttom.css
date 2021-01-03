@@ -1,0 +1,74 @@
+.buttom {
+	height: 220px;
+	background-image: url(../img/lsftbj_02.jpg);
+}
+
+.buttom .container1 {
+	height: 160px;
+	width: 1200px;
+	position: relative;
+	left: 355px;
+	top: 30px;
+}
+
+.buttom .buttom-img1>img {
+	max-height: 117px;
+	max-width: 117px;
+}
+
+.buttom .buttom-list {
+	height: 160px;
+	width: 216px;
+	column-count: 2;
+	column-gap: 3px;
+	text-align: center;
+}
+
+.buttom .buttom-list>ul>li {
+	list-style: none;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.buttom .buttom-list>ul>li>a {
+	color: white;
+	font-size: small;
+}
+
+.buttom .buttom-list>ul>li>a:hover {
+	color: blue;
+}
+
+.buttom .buttom-img2 {
+	width: 117px;
+	height: 80px;
+	position: absolute;
+	left: 380px;
+	top: 0px;
+}
+
+.buttom .buttom-img1 {
+	height: 117px;
+	width: 117px;
+	position: absolute;
+	left: 230px;
+	top: 10px;
+}
+
+.buttom .container1 .buttom-text {
+	height: 160px;
+	width: 351px;
+	font-size: small;
+	position: absolute;
+	left: 500px;
+	top: 0;
+}
+.buttom .container1 .buttom-text>span{
+	line-height: 32px;
+}
+.buttom .container1 .last-image {
+	width: 251px;
+	position: absolute;
+	left: 900px;
+	top: 0px;
+}

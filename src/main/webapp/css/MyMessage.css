@@ -1,0 +1,80 @@
+body {
+	font-family: ”Comic Sans MS”, cursive;
+	font-size: 20px;
+	text-align: center;
+	overflow-x:hidden;
+}
+.contain{
+	width: 100%;
+	height: 880px;
+}
+.contain .head{
+	width: 1280px;
+	height: 150px;
+	left: 15%;
+	background-image: url(https://i.csdn.net/static/img/banner@2x.23abf20.png);
+	position: absolute;
+}
+.contain .head>img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+	position: absolute;
+	left: 5%;
+}
+.contain .head>span{
+	color: white;
+	position: relative;
+}
+.contain .head .age{
+	position: absolute;
+	left: 6%;
+	top: 125px;
+}
+.contain .head .name{
+	position: absolute;
+	left: 30%;
+	top: 50px;
+}
+.contain .head .email{
+	position: absolute;
+	left: 30%;
+	top: 100px;
+}
+.contain .body{
+	width: 1280px;
+	height: 700px;
+	position: relative;
+	left: 15%;
+	top: 40%;
+	border: 2px solid lightgray;
+}
+.body{
+	text-align: left;
+}
+.body .applicant>h2{
+	margin-left: 35px;
+	margin-right: 35px;
+	border-bottom: 1px solid black;
+}
+.body .applicant>ul>li{
+	list-style: none;
+	line-height: 40px;
+}
+.body .worker>h2{
+	margin-left: 35px;
+	margin-right: 35px;
+	border-bottom: 1px solid black;
+}
+.body .worker>ul>li{
+	list-style: none;
+	line-height: 40px;
+}
+.body .create_mycard button{
+	width: 200px;
+	height: 40px;
+	position: relative;
+	left: 40%;
+	top: 10%;
+}

@@ -1,0 +1,52 @@
+.contain {
+	position: relative;
+	height: 200px;
+	width: 1280px;
+	left: 15%;
+}
+a{
+	text-decoration: none;
+}
+.contain>a>img {
+	max-height: 40%;
+	margin: 0;
+}
+
+.contain .list1 {
+	position: absolute;
+	list-style: none;
+	width: 700px;
+}
+
+.contain .list1>li {
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: blue;
+}
+
+.contain .list2 {
+	position: absolute;
+	list-style: none;
+	width: 400px;
+	left: 840px;
+}
+
+.contain .list2>li {
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: blue;
+}
+
+.contain li:hover {
+	background-color: cornflowerblue;
+}
+
+.contain li:hover {
+	color: white;
+}
